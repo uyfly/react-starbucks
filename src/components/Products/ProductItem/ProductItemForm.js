@@ -5,7 +5,7 @@ const ProductItemForm = (props) => {
   return (
     <form className={classes.form}>
       <Input
-        label="Amount"
+        label="수량"
         input={{
           id: "amount_" + props.id,
           type: "number",
@@ -15,7 +15,7 @@ const ProductItemForm = (props) => {
           defaultValue: "1",
         }}
       />
-      <button>+ Add</button>
+      <button>담기</button>
     </form>
   );
 };
